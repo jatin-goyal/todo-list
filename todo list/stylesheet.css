@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #9b59b6;
+}
+.input-container {
+  height: 15vh;
+  background-color: #944bb1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.todo-input {
+  margin-right: 0.5em;
+  height: 30%;
+  width: 40%;
+  border-radius: 4px;
+  padding-left: 6px;
+  background-color: white;
+  border: none;
+  text-align: center;
+  outline: none;
+}
+
+.add-todo {
+  margin-left: 0.5em;
+  height: 30%;
+  width: 85px;
+  background-color: rgb(209, 206, 206);
+  border: 0.5px solid black;
+  border-radius: 5px;
+  outline: none;
+}
+.add-todo:hover {
+  background-color: rgb(238, 233, 233);
+}
+
+.todos-container {
+  height: 88vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.todos-list {
+  /*  ul element */
+  display: flex;
+  margin-top: 5em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 55%;
+}
+
+.todo-item {
+  /* list  (liTag)*/
+  list-style-type: none;
+  width: 100%;
+  margin: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.todo {
+  /* jo karna hai-task  (pTag)*/
+  display: inline-block;
+  margin-right: 2.5em;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 500;
+  color: aliceblue;
+  font-size: 1.5em;
+  max-width: 80%;
+}
+
+.delete-todo {
+  /* delete btn  (btn)*/
+  font-family: cursive;
+  width: 60px;
+  font-weight: 400;
+  border-radius: 4px;
+  background-color: rgb(201, 185, 185);
+}
+.delete-todo:hover {
+  background-color: rgb(224, 215, 215);
+}
